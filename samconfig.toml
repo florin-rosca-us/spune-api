@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "spune"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-l9i8if30qsdq"
+s3_prefix = "spune"
+region = "us-west-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
