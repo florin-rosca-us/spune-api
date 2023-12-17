@@ -1,6 +1,6 @@
 # spune
 
-A serverless Python application that can be deployed using SAM CLI. 
+A serverless Python application that can be deployed to AWS CloudFormation. 
 
 - hello_efs - Code for the application's Lambda function.
 - events - Invocation events that you can use to invoke the function.
