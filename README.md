@@ -1,13 +1,14 @@
 # spune
 
-A serverless Python application that can be deployed to AWS CloudFormation. 
+An AWS serverless CloudFormation Python prototype for evaluating a way to exchange text messages between various clients via HTTP. The server provides an endpoint for saving a message to a file and an endpoint for reading the file and returning its content.
 
+Project content:
 - hello_efs - Code for the application's Lambda function.
 - events - Invocation events that you can use to invoke the function.
 - tests - Unit tests for the application code. 
 - template.yaml - A template that defines the application's AWS resources.
 
-The application uses several AWS resources, including Lambda functions and an API Gateway API. These resources are defined in the `template.yaml` file in this project. The template can be updated to add AWS resources through the same deployment process that updates the application code.
+The application uses several AWS resources, including Lambda functions and an API Gateway API. These resources are defined in the `template.yaml` file in this project. The template can be updated to add AWS resources through the same deployment process that updates the application code. The application can be deployed to AWS CloudFormation.
 
 To develop in an integrated development environment (IDE) use the AWS Toolkit, an open source plug-in for popular IDEs that uses the SAM CLI to build and deploy serverless applications on AWS. The AWS Toolkit also adds a simplified step-through debugging experience for Lambda function code. See the following links to get started.
 
