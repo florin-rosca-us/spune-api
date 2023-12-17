@@ -1,6 +1,6 @@
 # spune
 
-An AWS serverless CloudFormation Python prototype for evaluating a way to exchange text messages between various clients via HTTP. The server provides an endpoint for saving a message to a file and an endpoint for reading the file and returning its content.
+An AWS serverless CloudFormation prototype written in Python for evaluating a way to exchange text messages between various clients via HTTP. The server provides an endpoint for saving a message to a file and an endpoint for reading the file and returning its content.
 
 Project content:
 - hello_efs - Code for the application's Lambda function.
